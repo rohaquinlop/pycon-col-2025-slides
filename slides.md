@@ -365,7 +365,7 @@ layout: section
 # Module 2: Introducing **complexipy**
 
 ---
-layout: default
+layout: center
 ---
 
 # 2.1: **complexipy** - A Modern Solution
@@ -436,11 +436,11 @@ layout: default
 
 ### Setup
 
-Go to $workshop_repo and fork it.
+Go to https://github.com/rohaquinlop/complexipy-workshop and fork it.
 
 ```bash
-git clone https://github.com/your_user/$workshop.git
-cd $workshop
+git clone https://github.com/$your_user/complexipy-workshop.git
+cd complexipy-workshop
 ```
 
 ## If you have installed [uv](https://docs.astral.sh/uv/)
@@ -459,7 +459,22 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Task 1: Basic Analysis
+---
+layout: center
+---
+
+# 2.3: Hands-On Lab: First Complexity Audit
+
+### Task 1: Install complexipy
+
+```bash
+uv add complexipy      # If you're using uv
+pip install complexipy # If you're using pip
+```
+
+<br>
+
+### Task 2: Basic Analysis
 ```bash
 complexipy .
 ```
@@ -484,7 +499,8 @@ layout: default
 
 ### Installation & Setup
 
-1. Install the extension from VS Code marketplace
+1. Search: `complexipy` at VS Code marketplace
+2. Install
 
 ---
 layout: default
@@ -553,14 +569,12 @@ layout: section
 # Module 4: Practical Refactoring & Conclusion
 
 ---
-layout: two-cols
+layout: center
 ---
 
 # 4.1: From Analysis to Action
 
 ## Live Refactoring Session
-
-TODO: Add example here
 
 ---
 layout: default
@@ -618,7 +632,6 @@ layout: two-cols
 
 ### Questions to Consider
 - How will you integrate complexity analysis into your workflow?
-- What thresholds make sense for your team?
 - How can complexity analysis improve your code review process?
 - What challenges do you anticipate in adoption?
 
@@ -647,7 +660,6 @@ layout: default
 ### Next Steps
 - **Install complexipy** and start analyzing your code
 - **Set up VS Code extension** for real-time feedback
-- **Configure CI/CD** with appropriate thresholds
 - **Share knowledge** with your team
 
 </div>
@@ -682,4 +694,6 @@ class: text-center
   <img src="./assets/linkedin_qr.png" alt="LinkedIn QR code" class="h-40 mx-4" />
 </div>
 
-**Slides and resources available at:** [github.com/rohaquinlop/complexipy-workshop](https://github.com/rohaquinlop/complexipy-workshop)
+**Resources available at:** [github.com/rohaquinlop/complexipy-workshop](https://github.com/rohaquinlop/complexipy-workshop)
+
+**Slides available at:** [github.com/rohaquinlop/pycon-col-2025-slides](https://github.com/rohaquinlop/pycon-col-2025-slides)
