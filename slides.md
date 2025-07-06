@@ -124,6 +124,7 @@ layout: center
 - Contributed to `Rust`, `terraform-aws-gitlab-runner` and other open-source projects
 - Speaker at local meetups
 - Passionate about developer experience, performance, and readable code
+- `C` - `C++` - `Python` - `Rust` - `Nix` - `Gleam` | `FP`
 
 ---
 layout: center
@@ -160,7 +161,7 @@ layout: two-cols
 <div class="prerequisite-list">
 
 - **Basic Python Knowledge**: Familiarity with Python syntax and data structures
-- **Laptop with Python**: Python 3.8+ installed
+- **Laptop with Python**: Python 3.9+ installed
 - **uv (Optional)**: Have [uv](https://docs.astral.sh/uv/) installed
 - **Code Editor**: Your preferred code editor (e.g., VS Code)
 - **Git**: Required to clone the workshop repo
